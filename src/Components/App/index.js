@@ -8,19 +8,19 @@ const individuals = [
   {
     name: "Anita Coleman",
     image: "coleman-opt.jpg",
-    audio: "coleman.WAV",
+    audio: "coleman.mp3",
     timelineId: "0ArmAJfFcZtYadEdMcHNONThKMkhrelpWaWFhYXJBTFE"
   },
   {
     name: "Crystal Miller",
     image: "miller-opt.jpg",
-    audio: "miller.WAV",
+    audio: "miller.mp3",
     timelineId: "0ArmAJfFcZtYadFA4NGhUbHk1dUF6eml0MVQ4bUVXb2c"
   },
   {
     name: "Lisa Echols",
     image: "echols-opt.jpg",
-    audio: "echols.WAV",
+    audio: "echols.mp3",
     timelineId: "0ArmAJfFcZtYadE5NNUtsWk1FSkVaRVVpbmVsd3BxdlE"
   }
 ];
