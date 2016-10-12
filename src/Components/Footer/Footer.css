@@ -13,3 +13,15 @@
 .icons:hover {
   opacity: 0.5;
 }
+
+.social-icon__type {
+	font-size: 1.75em;
+}
+
+.icon-facebook3 {
+	color: #3b5998;
+}
+
+.icon-twitter3 {
+	color: #1da1f3;
+}

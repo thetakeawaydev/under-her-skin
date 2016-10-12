@@ -10,11 +10,11 @@ const Footer = () => {
                 <div id="logo"></div>
             </a>
             <div className="iconContainer">
-                <a href="https://www.facebook.com/groups/underherskin/1450514928556979/" target="_blank" className="icons">
-                    <div id="facebook"></div>
+                <a href="https://www.facebook.com/groups/underherskin/1450514928556979/" target="_blank">
+                    <i className="icon-facebook3 social-icon__type"></i>
                 </a>
-                <a href="http://twitter.com/thetakeaway" className="icons" target="_blank">
-                    <div id="twitter"></div>
+                <a href="http://twitter.com/thetakeaway" target="_blank">
+                    <i className="icon-twitter3 social-icon__type"></i>
                 </a>
             </div>
 		</footer>

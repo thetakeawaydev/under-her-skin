@@ -7,19 +7,19 @@ import Footer from '../Footer';
 const individuals = [
   {
     name: "Anita Coleman",
-    image: "coleman.jpg",
+    image: "coleman-opt.jpg",
     audio: "coleman.WAV",
     timelineId: "0ArmAJfFcZtYadEdMcHNONThKMkhrelpWaWFhYXJBTFE"
   },
   {
     name: "Crystal Miller",
-    image: "miller.jpg",
+    image: "miller-opt.jpg",
     audio: "miller.WAV",
     timelineId: "0ArmAJfFcZtYadFA4NGhUbHk1dUF6eml0MVQ4bUVXb2c"
   },
   {
     name: "Lisa Echols",
-    image: "echols.jpg",
+    image: "echols-opt.jpg",
     audio: "echols.WAV",
     timelineId: "0ArmAJfFcZtYadE5NNUtsWk1FSkVaRVVpbmVsd3BxdlE"
   }
