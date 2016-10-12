@@ -1,0 +1,15 @@
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconContainer {
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icons:hover {
+  opacity: 0.5;
+}
