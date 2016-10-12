@@ -1,25 +1,43 @@
 .individual {
   width: 30%;
   max-width: 300px;
-  /*height: 300px;*/
   border: 10px solid white;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
 .individual:before {
-	content: "";
-	padding-top: 100%;
-	width: 100%;
-	display: block;
+  content: "";
+  padding-top: 100%;
+  width: 100%;
+  display: block;
+}
+
+.individual:hover {
+	border-color: #b0aa82;
 }
 
 .individual__photo {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
 }
+
+@media screen and (max-width: 40em) {
+  .individual {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .individual {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
