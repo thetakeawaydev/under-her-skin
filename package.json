@@ -2,7 +2,9 @@
   "name": "react_under_her_skin",
   "version": "0.0.1",
   "private": true,
+  "homepage": "http://thetakeawaydev.github.io/under_her_skin",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "picturefill": "^3.0.2",
     "react-scripts": "0.6.1",
     "react-scroll": "^1.4.1",
@@ -16,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
