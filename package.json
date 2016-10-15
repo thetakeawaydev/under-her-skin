@@ -2,7 +2,7 @@
   "name": "under-her-skin",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://thetakeawaydev.github.io/under-her-skin",
+  "homepage": "http://www.livingwithbreastcancer.org",
   "devDependencies": {
     "gh-pages": "^0.11.0",
     "picturefill": "^3.0.2",
