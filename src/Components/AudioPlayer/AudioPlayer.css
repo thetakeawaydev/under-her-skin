@@ -1,0 +1,11 @@
+.icon-volume-mute2,
+.icon-volume-medium {
+	font-size: 2em;
+}
+
+.fixed {
+	position: fixed;
+	right: 24px;
+	top: 50%;
+	transform: translateY(-50%);
+}

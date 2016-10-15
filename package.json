@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.6.1"
+    "picturefill": "^3.0.2",
+    "react-scripts": "0.6.1",
+    "react-scroll": "^1.4.1",
+    "react-sound": "^0.5.2"
   },
   "dependencies": {
     "react": "^15.3.2",

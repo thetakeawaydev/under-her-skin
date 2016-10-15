@@ -1,19 +1,33 @@
 .footer {
-  height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .iconContainer {
 	width: 10%;
+	max-width: 66px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-right: 1em;
 }
 
-.icons:hover {
-  opacity: 0.5;
+.logo {
+	background-size: cover;
+	width: 150px;
+}
+.hover-effect {
+	transition: opacity 250ms;
+}
+.hover-effect:hover {
+	opacity: 0.8;
 }
 
+.credit {
+	margin-left: 1em;
+}
 .social-icon__type {
 	font-size: 1.75em;
 }
@@ -24,4 +38,21 @@
 
 .icon-twitter3 {
 	color: #1da1f3;
+}
+
+@media screen and (max-width: 40em) {
+	.footer {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.credit,
+	.logo,
+	.iconContainer {
+		margin-top: 20px;
+	}
+
+	.iconContainer {
+		width: 30%;
+	}
 }
