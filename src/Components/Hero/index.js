@@ -9,7 +9,8 @@ const Hero = () => {
 				sizes="100vw"
 				srcSet="UnderHerSkin-mobile-opt.png 810w"
 				/>
-				<img src="UnderHerSkin-opt.png"
+				<img alt="Under Her Skin: Living With Breast Cancer"
+				src="UnderHerSkin-opt.png"
 				className="hero__poster" />
 			</picture>
 		</header>
